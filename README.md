@@ -1,5 +1,7 @@
 # Blog
 
+🌐 **Live Site:** [biratpoudel.com.np](https://biratpoudel.com.np)
+
 My personal blog built with Astro and Tailwind CSS.
 
 ## Features
