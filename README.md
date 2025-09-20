@@ -1,6 +1,6 @@
 # Blog
 
-🌐 **Live Site:** [biratpoudel.com.np](https://biratpoudel.com.np)
+🌐 **Live Site:** <a href="https://biratpoudel.com.np" target="_blank">biratpoudel.com.np</a>
 
 My personal blog built with Astro and Tailwind CSS.
 
