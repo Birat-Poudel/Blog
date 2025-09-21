@@ -22,31 +22,43 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 <Layout>
   <Header />
   <main id="main-content" data-layout="index">
-    <section id="hero" class="pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Research and Engineering
-      </h1>
-
-      <p>
-        Hey 👋, I’m <strong>Birat Poudel</strong>! I’m an AI/ML Engineer with strong technical expertise in research, design, and end-to-end integration of machine learning solutions into software systems.
-      </p>
-      <br />
-      <p>
-        I’m passionate about exploring new ideas, solving complex engineering challenges, and building intelligent systems that create real impact.
-      </p>
-      <br />
+    <section id="hero" class="pt-6 pb-6 px-2 sm:pt-8">
+      <div class="flex flex-col items-center gap-6 sm:gap-8 sm:flex-row sm:items-start">
+        <div class="flex-shrink-0">
+          <img 
+            src="/biratpoudel.jpeg" 
+            alt="Birat Poudel" 
+            class="h-28 w-28 rounded-full object-cover shadow-lg ring-2 ring-border sm:h-40 sm:w-40"
+          />
+        </div>
+        <div class="flex-1 text-center sm:text-left max-w-full">
+          <h1 class="my-2 text-2xl font-bold leading-tight sm:my-0 sm:text-4xl sm:leading-normal">
+            AI/ML Research and Engineering
+          </h1>
+          <p class="mt-3 text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            I am <strong class="text-gray-900 dark:text-white">Birat Poudel</strong>, an AI/ML Engineer with extensive experience in machine learning research, algorithm development, and scalable system design.
+          </p>
+          <p class="mt-3 text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            My work focuses on advancing the theoretical foundations of artificial intelligence while developing practical solutions for real-world applications.
+          </p>
+          <p class="mt-3 text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            I am driven by a commitment to pushing the boundaries of machine learning through rigorous research, innovative methodologies, and interdisciplinary collaboration.
+          </p>
+        </div>
+      </div>
 
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
-          <div class="flex flex-col sm:flex-row sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+          <div class="flex flex-col items-center sm:flex-row sm:items-center mt-6 gap-2 sm:gap-0">
+            <div class="mb-2 sm:me-2 sm:mb-0 text-base sm:text-base">Social Links:</div>
             <Socials />
           </div>
         )
       }
     </section>
 
+    <Hr />
     <Hr />
 
     {

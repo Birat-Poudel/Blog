@@ -1,9 +1,9 @@
 import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
-import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
-import IconKaggle from "@/assets/icons/kaggle.svg";
+import IconKaggle from "@/assets/icons/IconKaggle.svg";
+import IconMedium from "@/assets/icons/IconMedium.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -30,7 +30,7 @@ export const SOCIALS: Social[] = [
     name: "Medium",
     href: "https://medium.com/@poudel.birat25",
     linkTitle: `${SITE.title} on Medium`,
-    icon: IconBrandX,
+    icon: IconMedium,
   },
   {
     name: "LinkedIn",

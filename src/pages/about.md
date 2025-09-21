@@ -3,89 +3,141 @@ layout: ../layouts/AboutLayout.astro
 title: "Birat Poudel"
 ---
 
-## 👋 Hey
+## Research Profile
 
-I'm a **Data Scientist & AI/ML Engineer** with expertise in building production-ready AI systems that solve real-world problems. Currently working at **Leapfrog Technology**, I specialize in developing **conversational AI, voice systems, and intelligent agents** while maintaining strong backend engineering foundations.
+I am **Birat Poudel**, an AI/ML Research Engineer with a strong foundation in machine learning theory and extensive experience in translating cutting-edge research into production-ready systems. My work bridges the gap between academic research and real-world applications, with particular expertise in **conversational AI, natural language processing, and intelligent system architectures**.
 
-I excel at transforming complex ML research into scalable production systems—whether it's:  
-- Building **IVR systems and Conversational Voice AI** for medical patient follow-ups and referrals  
-- Developing **AI Voice Interviewers** and intelligent chatbots with 10+ service integrations (Google Calendar, Zoom, Gmail, etc.)  
-- Creating **match score algorithms** using advanced NLP to optimize candidate-job matching  
-- Engineering **RAG-based systems, semantic search, and time series forecasting models** with 15%+ accuracy improvements  
-- Orchestrating **AI Agent Frameworks and MCP Servers** for scalable agent orchestration  
-
----
-
-## What I Work With  
-
-- **ML/AI**: PyTorch · TensorFlow · Scikit-Learn · Prophet · XGBoost · LSTM · SARIMA  
-- **Data & Analytics**: NumPy · Pandas · Feature Engineering · Time Series Analysis  
-- **Databases**: PostgreSQL · MySQL · MongoDB · Redis · Vector Databases  
-- **Backend**: FastAPI · Django · Flask · Spring Boot  
-- **Frontend**: React · Next.js · TypeScript · Redux  
-- **DevOps & Cloud**: Docker · Kubernetes · AWS · Firebase  
-- **AI/ML Ops**: Model Evaluation Pipelines · RAG Systems · Vector Search Optimization  
+My research interests and professional contributions encompass:
+- **Advanced Conversational AI Systems**: Developing sophisticated dialogue systems and voice-based interfaces for healthcare and enterprise applications
+- **Natural Language Processing**: Implementing state-of-the-art NLP models for semantic understanding, intent classification, and empathetic response generation
+- **Retrieval-Augmented Generation (RAG)**: Architecting knowledge-grounded systems with significant performance improvements through novel optimization techniques
+- **Time Series Analysis & Forecasting**: Applying advanced statistical and deep learning methods (SARIMA, LSTM, Prophet) for predictive modeling
+- **Multi-Agent Systems**: Designing and implementing scalable AI agent frameworks for complex task orchestration  
 
 ---
 
-## Professional Journey
+## Technical Expertise & Research Tools
 
-```
-     │
-     ├── 📍 AI/ML Engineer @ Leapfrog Technology (May 2024 - Present)
-     │   ├─ IVR & Conversational Voice AI for healthcare applications
-     │   ├─ Model Evaluation PDF Report Generator Pipelines
-     │   └─ AI Agents Frameworks & MCP Servers development
-     │
-     ├── 📍 ML Engineer @ Jobsflow.ai (Dec 2024 - May 2024)
-     │   ├─ AI Voice Interviewer & intelligent chatbot systems
-     │   ├─ Job-candidate matching algorithms with NLP
-     │   └─ Contextual search using embeddings (10+ service integrations)
-     │
-     ├── 📍 ML Engineer @ Fusemachines (Sep 2024 - Nov 2024)
-     │   ├─ Time series forecasting (SARIMA, LSTM, Prophet, XGBoost)
-     │   ├─ Advanced feature engineering & data preprocessing
-     │   └─ RAG system optimization (15% model improvement)
-     │
-     ├── 📍 ML Engineer @ Maven Solutions (August 2022 - August 2024)
-         ├─ ML algorithms implementation (classification, regression, clustering)
-         ├─ Backend API development with FastAPI
-         └─ Cross-functional collaboration (15% accuracy improvement)
-```
+**Machine Learning & AI Frameworks**
+- Deep Learning: PyTorch, TensorFlow, Transformers, Hugging Face
+- Classical ML: Scikit-Learn, XGBoost, LightGBM
+- Time Series: Prophet, SARIMA, LSTM, ARIMA
+- NLP: BERT, GPT variants, T5, Sentence Transformers
+
+**Research & Development Stack**
+- **Data Science**: NumPy, Pandas, SciPy, Matplotlib, Seaborn
+- **Databases**: PostgreSQL, MongoDB, Redis, Vector Databases (Pinecone, Weaviate)
+- **MLOps**: Docker, Kubernetes, AWS, Model Versioning, Experiment Tracking
+- **Development**: Python, FastAPI, React, TypeScript, Git
+- **Evaluation**: Statistical Analysis, A/B Testing, Performance Metrics  
 
 ---
 
-## Featured Projects  
+## Research & Professional Experience
 
-- [**Automobile License Plate Recognition**](https://github.com/Birat-Poudel/Automobile-License-Plate-Detection-and-Recognition) → Real-time detection with Inception-ResNet-v2, YOLOv8 + Tesseract OCR  
-- [**Nepali Sign Language Translator**](https://github.com/Birat-Poudel/Nepali-Sign-Language-Recognition-and-Translation) → 93.41% accuracy CNN model recognizing 14 gestures with text & speech output  
-- [**Conversational Empathy Model**](https://github.com/Birat-Poudel/Conversational-Computational-Empathy) → Transformer-based system for intent classification, sentiment analysis, and empathetic response generation  
-- [**Vector Search & RAG Projects**](https://github.com/Birat-Poudel/Vector-Search-RAG-Projects) → Semantic movie search with Atlas Vector Search + Document Q&A using Gemma Model and Langchain  
-- [**Machine Learning Portfolio**](https://github.com/Birat-Poudel/Machine-Learning) → Comprehensive collection including Titanic survival prediction, breast cancer classification (92.98% accuracy), and automobile price prediction (R² = 0.8709)  
+**AI/ML Research Engineer** | Leapfrog Technology (May 2024 - Present)
+- Leading research and development of conversational AI systems for healthcare applications
+- Architecting automated model evaluation pipelines with comprehensive performance reporting
+- Developing novel AI agent frameworks and Model Context Protocol (MCP) servers for scalable system integration
 
----
+**Machine Learning Engineer** | Jobsflow.ai (Dec 2023 - May 2024)
+- Designed and implemented AI-powered voice interviewing systems with advanced natural language understanding
+- Developed sophisticated job-candidate matching algorithms using state-of-the-art NLP techniques
+- Created contextual search systems leveraging embedding models with multi-service integration capabilities
 
-## Background & Credentials  
+**ML Research Engineer** | Fusemachines (Sep 2023 - Nov 2023)
+- Conducted advanced research in time series forecasting, implementing and comparing multiple methodologies
+- Achieved 15% performance improvement in RAG systems through novel optimization techniques
+- Developed comprehensive feature engineering pipelines for complex temporal data analysis
 
-**Bachelor's in Electronics, Communication & Information Engineering** from Thapathali Engineering Campus (2019-2023)  
-**Certified**: Machine Learning Specialization & Web Development Specialization (Coursera)  
-Based in **Kathmandu, Nepal**, building AI solutions with global impact  
-
-**Core Coursework**: Artificial Intelligence, Probability & Statistics, Discrete Structures, Big Data, Web Development
-
----
-
-## Technical Interests
-
-I'm passionate about the intersection of **research and production AI**, particularly:
-- **Conversational AI & Voice Systems** for real-world applications  
-- **Advanced NLP** for semantic understanding and generation  
-- **Time Series Forecasting** and predictive analytics  
-- **RAG Systems** and knowledge retrieval optimization  
-- **AI Agent Orchestration** and multi-service integration  
+**Machine Learning Engineer** | Maven Solutions (Aug 2022 - Aug 2024)
+- Implemented and optimized machine learning algorithms across classification, regression, and clustering domains
+- Developed production-ready APIs and systems with measurable performance improvements
+- Collaborated on interdisciplinary projects combining ML research with software engineering best practices
 
 ---
 
-✨ When I'm not coding, you'll find me exploring **cutting-edge AI research**, optimizing **ML systems for production**, and contributing to the **AI engineering community** through knowledge sharing and open-source projects.  
+## Research Projects & Publications
 
-🔗 [GitHub](https://github.com/Birat-Poudel) · [LinkedIn](https://bit.ly/LinkedIn-Birat-Poudel) · poudel.birat25@gmail.com
+**[Automobile License Plate Recognition System](https://github.com/Birat-Poudel/Automobile-License-Plate-Detection-and-Recognition)**
+*Computer Vision & Pattern Recognition*
+- Developed a real-time license plate detection and recognition system using Inception-ResNet-v2 architecture
+- Integrated YOLOv8 object detection with Tesseract OCR for robust text extraction
+- Achieved high accuracy in challenging lighting and angle conditions
+
+**[Nepali Sign Language Recognition & Translation](https://github.com/Birat-Poudel/Nepali-Sign-Language-Recognition-and-Translation)**
+*Deep Learning & Accessibility Technology*
+- Designed and trained a CNN model achieving 93.41% accuracy for 14 distinct Nepali sign language gestures
+- Implemented multimodal output system with text and speech synthesis capabilities
+- Contributed to accessibility research for the Nepali-speaking deaf community
+
+**[Conversational Computational Empathy](https://github.com/Birat-Poudel/Conversational-Computational-Empathy)**
+*Natural Language Processing & Human-Computer Interaction*
+- Developed a transformer-based system for empathetic response generation in conversational AI
+- Integrated intent classification and sentiment analysis for contextually appropriate responses
+- Advanced research in computational empathy and emotional intelligence in AI systems
+
+**[Advanced Vector Search & RAG Systems](https://github.com/Birat-Poudel/Vector-Search-RAG-Projects)**
+*Information Retrieval & Knowledge Systems*
+- Implemented semantic search systems using Atlas Vector Search for multimedia content
+- Developed document Q&A systems using Gemma models and LangChain framework
+- Contributed to research in retrieval-augmented generation and knowledge grounding
+
+**[Comprehensive Machine Learning Research](https://github.com/Birat-Poudel/Machine-Learning)**
+*Statistical Learning & Predictive Modeling*
+- Conducted extensive research across multiple ML domains with rigorous evaluation methodologies
+- Achieved 92.98% accuracy in breast cancer classification using ensemble methods
+- Developed automobile price prediction models with R² = 0.8709 through advanced feature engineering  
+
+---
+
+## Academic Background & Qualifications
+
+**Bachelor of Engineering in Electronics, Communication & Information Engineering**
+*Thapathali Engineering Campus, Tribhuvan University* (2019-2023)
+
+**Relevant Coursework & Research Areas:**
+- Artificial Intelligence & Machine Learning Theory
+- Advanced Probability & Statistics
+- Discrete Mathematics & Computational Structures
+- Big Data Analytics & Processing
+- Signal Processing & Information Theory
+- Software Engineering & System Design
+
+**Professional Certifications:**
+- Machine Learning Specialization (Stanford University/Coursera)
+- Deep Learning Specialization (DeepLearning.AI)
+- Advanced Web Development Specialization
+
+**Research Interests for Doctoral Studies:**
+- Multimodal AI systems and cross-modal learning
+- Conversational AI and human-computer interaction
+- Retrieval-augmented generation and knowledge systems
+- Computational empathy and emotional AI
+- Time series analysis and predictive modeling
+
+---
+
+## Research Vision & Future Directions
+
+My research philosophy centers on developing AI systems that are not only technically sophisticated but also ethically responsible and practically impactful. I am particularly interested in pursuing doctoral research that advances the theoretical foundations of artificial intelligence while addressing real-world challenges.
+
+**Primary Research Interests:**
+- **Multimodal Learning Systems**: Investigating cross-modal understanding and generation capabilities
+- **Human-Centered AI**: Developing empathetic and contextually aware conversational systems
+- **Knowledge-Grounded AI**: Advancing retrieval-augmented generation and factual consistency in large language models
+- **Temporal AI Systems**: Exploring advanced time series modeling and predictive analytics
+- **AI Safety & Alignment**: Ensuring AI systems remain beneficial and aligned with human values
+
+**Research Methodology:**
+I believe in rigorous experimental design, reproducible research practices, and interdisciplinary collaboration. My approach combines theoretical understanding with practical implementation, ensuring research contributions have both academic merit and real-world applicability.
+
+**Academic Aspirations:**
+I am seeking opportunities to pursue doctoral studies where I can contribute to the advancement of artificial intelligence through innovative research, collaborate with leading researchers in the field, and mentor the next generation of AI practitioners.
+
+---
+
+**Contact & Collaboration:**
+🔗 [GitHub](https://github.com/Birat-Poudel) · [LinkedIn](https://bit.ly/LinkedIn-Birat-Poudel) · [Email](mailto:poudel.birat25@gmail.com)
+
+*Open to research collaborations, academic discussions, and doctoral program opportunities in AI/ML.*
