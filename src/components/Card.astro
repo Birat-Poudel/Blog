@@ -10,7 +10,7 @@ export interface Props extends CollectionEntry<"blog"> {
 
 const { variant = "h2", data, id, filePath } = Astro.props;
 
-const { title, description, pubDatetime, modDatetime, timezone, ogImage } = data;
+const { title, description, pubDatetime, modDatetime, timezone } = data;
 
 const headerProps = {
   style: { viewTransitionName: slugifyStr(title) },
@@ -20,15 +20,6 @@ const headerProps = {
 
 <li class="my-6">
   <div class="flex gap-4">
-    {ogImage && (
-      <div class="flex-shrink-0">
-        <img 
-          src={typeof ogImage === 'string' ? ogImage : ogImage.src} 
-          alt={title}
-          class="w-40 h-40 object-contain rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-700"
-        />
-      </div>
-    )}
     <div class="flex-1">
       <a
         href={getPath(id, filePath)}

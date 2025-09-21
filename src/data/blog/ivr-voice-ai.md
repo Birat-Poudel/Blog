@@ -13,7 +13,6 @@ tags:
   - Twilio
 description:
   "Complete guide to integrate Interactive Voice Response and Conversational Voice AI to turn your robotic calls into a natural human-answered call."
-ogImage: src/data/blog/images/ivr1.png
 timezone: "Asia/Kathmandu"
 ---
 
@@ -99,7 +98,7 @@ See how each of these components interacts with the others:
 
 <div style="text-align: center;">
 
-![IVR with Conversational Voice AI architecture](src/data/blog/images/ivr1.png)
+![IVR with Conversational Voice AI architecture](/ivr1.png)
 
 *Figure 1: Architecture diagram showing the integration between IVR systems and Conversational Voice AI using LiveKit and Twilio*
 
@@ -130,7 +129,7 @@ See how each of these components interacts with the others:
 
 <div style="text-align: center;">
 
-![Data flow from phone call to amazon nova sonic response](src/data/blog/images/ivr2.png)
+![Data flow from phone call to amazon nova sonic response](/ivr2.png)
 
 *Figure 2: Data flow from phone call to amazon nova sonic response*
 
