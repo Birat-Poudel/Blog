@@ -1,0 +1,78 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Layout from "@/layouts/Layout.astro";
+import { SITE } from "@/config";
+---
+
+<Layout title={`Research Papers | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content">
+    <section id="papers" class="mb-28 max-w-4xl mx-auto px-4">
+      <div class="mb-5">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Research Papers</h1>
+      </div>
+
+      <div class="space-y-8">
+        <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <div class="px-6 pt-6">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200">
+              Awaiting Publication
+            </span>
+          </div>
+          
+          <div class="p-6">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
+              Nepali Sign Language Characters Recognition: Dataset Development and Deep Learning Approaches
+            </h2>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">Abstract</h3>
+              <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                Sign languages serve as essential communication systems for individuals with hearing and speech impairments. However, digital linguistic dataset resources for underrepresented sign languages, such as Nepali Sign Language (NSL), remain scarce. This study introduces the first benchmark dataset for NSL, consisting of 36 gesture classes with 1,500 samples per class, designed to capture the structural and visual features of the language. To evaluate recognition performance, we fine-tuned MobileNetV2 and ResNet50 architectures on the dataset, achieving classification accuracies of 90.45% and 88.78%, respectively. These findings demonstrate the effectiveness of convolutional neural networks in sign recognition tasks, particularly within low-resource settings. To the best of our knowledge, this work represents the first systematic effort to construct a benchmark dataset and assess deep learning approaches for NSL recognition, highlighting the potential of transfer learning and fine-tuning for advancing research in underexplored sign languages.
+              </p>
+            </div>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">Keywords</h3>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">CNN</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">Nepali Sign Language</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">Image Classification</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">MobileNetV2</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">ResNet50</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">Transfer Learning</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full text-sm font-medium">Fine-Tuning</span>
+              </div>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="https://drive.google.com/file/d/16Vr35zDD5PT374esvP9a0v6ykl4yLTI2/view?usp=sharing" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg">
+                <svg class="w-5 h-5 mr-2 mb-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
+                </svg>
+                <span>View Paper PDF</span>
+              </a>
+              
+              <a href="https://github.com/Birat-Poudel/Nepali-Sign-Language-Characters-Classification" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center px-6 py-3 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg">
+                <svg class="w-5 h-5 mr-2 mb-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
