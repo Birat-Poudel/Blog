@@ -9,15 +9,15 @@ html[data-theme="light"] {
   --foreground: #282728;
   --accent: #006cac;
   --muted: #e6e6e6;
-  --border: #ece9e9;
+  --border: #006cac;
 }
 
 html[data-theme="dark"] {
   --background: #212737;
   --foreground: #eaedf3;
-  --accent: #ff6b01;
+  --accent: #2dd4bf;
   --muted: #343f60;
-  --border: #ab4b08;
+  --border: #2dd4bf;
 }
 
 @theme inline {
@@ -55,7 +55,7 @@ html[data-theme="dark"] {
 }
 
 @utility max-w-app {
-  @apply max-w-4xl;
+  @apply max-w-5xl;
 }
 
 .active-nav {
