@@ -10,8 +10,7 @@ tags:
   - Conversational AI
   - Enterprise AI Agents
   - Business Development
-description:
-  "Challenges and Solutions in Moving AI Agents from PoC to Production."
+description: "A deep dive into how voice agents are evolving: from classic speech-to-text and text-to-speech pipelines to full speech-to-speech systems, edge streaming infrastructure, and real-time actions during voice flows."
 timezone: "Asia/Kathmandu"
 ---
 

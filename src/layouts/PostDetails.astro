@@ -120,7 +120,7 @@ const nextPost =
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
-    <ul class="mt-4 mb-8 sm:my-8">
+    <ul class="mt-4 mb-8 sm:my-8 text-base">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
     </ul>
 
@@ -129,7 +129,7 @@ const nextPost =
     <hr class="my-6 border-dashed" />
 
     <!-- Previous/Next Post Buttons -->
-    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2 text-lg">
       {
         prevPost && (
           <a
@@ -139,7 +139,7 @@ const nextPost =
             <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
             <div>
               <span>Previous Blog</span>
-              <div class="text-sm text-accent/85">{prevPost.title}</div>
+              <div class="text-base text-accent/85">{prevPost.title}</div>
             </div>
           </a>
         )
@@ -152,7 +152,7 @@ const nextPost =
           >
             <div>
               <span>Next Blog</span>
-              <div class="text-sm text-accent/85">{nextPost.title}</div>
+              <div class="text-base text-accent/85">{nextPost.title}</div>
             </div>
             <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
           </a>
