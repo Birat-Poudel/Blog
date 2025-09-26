@@ -40,7 +40,7 @@ Large Language models are brilliant, but they forget. They get stuck in the past
 These models, huge stacks of neural networks, trained on massive oceans of text, had learned much. But all their wisdom was frozen in time, captured in parameters. Updating them was like trying to rewrite the memories of a giant elephant: expensive, slow, and imperfect.
 
 
-## **Why This Was Such a Big Deal**
+## **Why This Was Such a Big Deal?**
 
 - **Timeliness:** Facts change. New events happen. Instead of retraining a model every time, one could update the external corpus.
 
