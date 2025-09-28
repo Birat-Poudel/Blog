@@ -44,7 +44,7 @@ My research interests and professional contributions encompass:
 
 ## Research & Professional Experience
 
-**AI/ML Research Engineer** | Leapfrog Technology (May 2024 - Present)
+**AI/ML Research Engineer** | Leapfrog Technology (June 2024 - Present)
 - Leading research and development of **conversational AI systems (voice and chat)** for healthcare applications
 - Architecting automated model evaluation pipelines with comprehensive performance reporting
 - Developing novel AI agent frameworks and Model Context Protocol (MCP) servers for scalable system integration

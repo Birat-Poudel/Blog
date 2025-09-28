@@ -1,0 +1,225 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/Layout.astro";
+import { SITE } from "@/config";
+import Main from "@/layouts/Main.astro";
+---
+
+<Layout title={`Portfolio | ${SITE.title}`}>
+  <Header />
+    <Main pageTitle="Portfolio" pageDesc="A showcase of my machine learning projects.">
+  </Main>
+  <main id="main-content">
+    <section id="portfolio" class="mb-28 max-w-5xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Data Science</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">Time Series Forecasting with Nepal Stock Exchange (NEPSE) Dataset</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Time series forecasting is a powerful tool for understanding and predicting trends in data that changes over time. In this project, we gain valuable insights into stock price movements and make informed predictions about future trends.</p>
+                <a href="https://www.kaggle.com/code/biratpoudelrocks/time-series-forecasting-nepse-dataset" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    View Code
+                    <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Computer Vision</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">Automobile License Plate Detection and Recognition</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Utilized Inception-ResNet-v2 for accurate and efficient license plate detection, achieving real-time processing capabilities, and experimented with YOLOv8 to explore alternative detection methods.</p>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Leveraged Google Tesseract to accurately extract and recognize text from detected license plates, and developed a Flask-based backend to support seamless user interaction and data processing.</p>
+                <a href="https://github.com/Birat-Poudel/Automobile-License-Plate-Detection-and-Recognition" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    View Code
+                    <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Computer Vision</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">Nepali Sign Language Characters Recognition</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● The first benchmark dataset for NSL, consisting of 36 gesture classes with 1,500 samples per class, designed to capture the structural and visual features of the language.</p>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● To evaluate recognition performance, we fine-tuned MobileNetV2 and ResNet50 architectures on the dataset, achieving classification accuracies of 90.45% and 88.78%, respectively.</p>
+                <a href="https://github.com/Birat-Poudel/Nepali-Sign-Language-Characters-Classification" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    View Code
+                    <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Natural Language Processing</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">Synthetic Data-Driven Fine-Tuning of DialoGPT for E-Commerce Customer Support</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Fine-tuned DialoGPT, a lightweight generative dialogue model, on a synthetically constructed dataset of question-answer pairs reflecting typical e-commerce interactions.</p>
+                <a href="#" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <!-- <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg> -->
+                    Work in Progress (Refactoring the code)
+                    <!-- <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg> -->
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Natural Language Processing</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">SMS Spam Classifier</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Implemented Word Cloud generation, Text featurization and built model using Multinomial Naive Bayes.</p>
+                <a href="https://github.com/Birat-Poudel/Natural-Language-Processing-Projects" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    View Code
+                    <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="group bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-700">
+                <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    </div>
+                    <span class="text-xs font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-1 rounded-full">Machine Learning</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">Fundamental ML Projects</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Titanic Survival Prediction (Decision Tree Classifier)</p>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Breast Cancer Classification (Logistic Regression)</p>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Automobile Price Prediction (Linear, Ridge, and Lasso Regression)</p>
+                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-6">● Supermarket Sales Prediction (XGBoost Regressor)</p>
+                <a href="https://github.com/Birat-Poudel/Machine-Learning" class="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 font-medium text-sm transition-colors group">
+                    <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    View Code
+                    <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="mb-28 max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8">Industry Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Experience 1 -->
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xs font-medium text-blue-600 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded-full ml-auto">Professional</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Leapfrog Technology</h3>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● Conversational AI systems (Voice and Chat) for healthcare applications.</p>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● Automated foundational models evaluation pipelines with comprehensive performance reporting.</p>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● AI agent frameworks and Model Context Protocol (MCP) clients and servers.</p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xs font-medium text-blue-600 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 px-2 py-1 rounded-full ml-auto">Professional</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Jobsflow.ai</h3>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● AI-powered voice interviewing systems.</p>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● Sophisticated job-candidate matching algorithms.</p>
+                <p class="text-gray-600 dark:text-gray-100 text-sm leading-relaxed">● Contextual search systems leveraging embedding models with multi-service integration.</p>
+            </div>
+
+        </div>
+        
+        <div class="text-center mt-8">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-gray-600 dark:text-gray-200 hover:text-gray-800 dark:hover:text-gray-100 font-medium text-sm transition-colors group">
+                <svg class="w-4 h-4 mr-2 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                Download Full Resume
+                <svg class="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
