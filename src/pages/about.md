@@ -144,11 +144,11 @@ My research philosophy centers on developing AI systems that are not only techni
 I believe in rigorous experimental design, reproducible research practices, and interdisciplinary collaboration. My approach combines theoretical understanding with practical implementation, ensuring research contributions have both academic merit and real-world applicability.
 
 **Academic Aspirations:**
-I am seeking opportunities to pursue doctoral studies where I can contribute to the advancement of artificial intelligence through innovative research, collaborate with leading researchers in the field, and mentor the next generation of AI practitioners.
+I am seeking opportunities to pursue graduate/doctoral studies where I can contribute to the advancement of artificial intelligence through innovative research, collaborate with leading researchers in the field, and mentor the next generation of AI practitioners.
 
 ---
 
 **Contact & Collaboration:**
 🔗 [GitHub](https://github.com/Birat-Poudel) · [LinkedIn](https://bit.ly/LinkedIn-Birat-Poudel) · [Email](mailto:poudel.birat25@gmail.com)
 
-*Open to research collaborations, academic discussions, and doctoral program opportunities in AI/ML.*
+*Open to research collaborations, academic discussions, graduate/doctoral program opportunities.*
