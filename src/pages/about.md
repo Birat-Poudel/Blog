@@ -106,7 +106,7 @@ My research interests and professional contributions encompass:
 
 **Bachelor of Engineering in Electronics, Communication & Information Engineering**
 
-*Thapathali Engineering Campus, Tribhuvan University* (2019-2023)
+*Tribhuvan University, IOE, Thapathali Campus* (2019-2023)
 
 **Relevant Coursework & Research Areas:**
 - Artificial Intelligence & Machine Learning Theory
