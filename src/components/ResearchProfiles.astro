@@ -1,0 +1,26 @@
+---
+import { RESEARCH_PROFILES } from "@/constants";
+import LinkButton from "./LinkButton.astro";
+
+export interface Props {
+  centered?: boolean;
+}
+
+const { centered = false } = Astro.props;
+---
+
+<div class:list={["flex flex-wrap justify-center gap-3", { "justify-center": centered }]}>
+  {
+    RESEARCH_PROFILES.map(profile => (
+      <LinkButton
+        href={profile.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="px-6 py-2 pt-3 text-sm font-medium rounded-full border border-skin-line bg-skin-fill hover:bg-skin-accent hover:text-skin-inverted transition-all duration-300 hover:scale-105 hover:shadow-lg !inline-flex items-center justify-center gap-2"
+        title={profile.linkTitle}
+      >
+        {profile.name}
+      </LinkButton>
+    ))
+  }
+</div>

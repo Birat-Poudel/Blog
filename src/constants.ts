@@ -45,3 +45,27 @@ export const SOCIALS: Social[] = [
     icon: IconMail,
   },
 ] as const;
+
+interface ResearchProfile {
+  name: string;
+  href: string;
+  linkTitle: string;
+}
+
+export const RESEARCH_PROFILES: ResearchProfile[] = [
+  {
+    name: "ORCID",
+    href: "https://orcid.org/0009-0007-1104-5019",
+    linkTitle: `${SITE.title} ORCID Profile`,
+  },
+  {
+    name: "Google Scholar",
+    href: "https://scholar.google.com/citations?user=TnsQurkAAAAJ&hl=en",
+    linkTitle: `${SITE.title} on Google Scholar`,
+  },
+  {
+    name: "Research Gate",
+    href: "https://www.researchgate.net/profile/Birat-Poudel",
+    linkTitle: `${SITE.title} on ResearchGate`,
+  },
+] as const;
