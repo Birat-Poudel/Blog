@@ -69,6 +69,61 @@ import Main from "@/layouts/Main.astro";
             </div>
           </div>
         </article>
+
+        <article class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <div class="px-6 pt-6">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800 dark:bg-transparent dark:border-1 dark:border-yellow-200 dark:text-yellow-200">
+              Awaiting Publication
+            </span>
+          </div>
+          
+          <div class="p-6">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
+              Fine-Tuning DialoGPT on Common Diseases in Rural Nepal for Medical Conversations
+            </h2>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">Abstract</h3>
+              <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                Conversational agents are increasingly being explored to support healthcare delivery, particularly in resource-constrained settings such as rural Nepal. Large-scale conversational models typically rely on internet connectivity and cloud infrastructure, which may not be accessible in rural areas due to limited electricity and network coverage. In this study, we fine-tuned DialoGPT, a lightweight generative dialogue model that can operate offline, on a synthetically constructed dataset of doctor-patient interactions covering ten common diseases prevalent in rural Nepal, including common cold, seasonal fever, diarrhea, typhoid fever, gastritis, food poisoning, malaria, dengue fever, tuberculosis, and pneumonia. Despite being trained on a limited, domain-specific dataset, the fine-tuned model produced coherent, contextually relevant, and medically appropriate responses, demonstrating an understanding of symptoms, disease context, and empathetic communication. These results highlight the adaptability of compact, offline-capable dialogue models and the effectiveness of targeted datasets for domain adaptation in low-resource healthcare environments, offering promising directions for future rural medical conversational AI.
+              </p>
+            </div>
+            
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">Keywords</h3>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-transparent dark:border-1 dark:border-blue-200 dark:text-blue-200 rounded-full text-sm font-medium">Medical Dialogue</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-transparent dark:border-1 dark:border-blue-200 dark:text-blue-200 rounded-full text-sm font-medium">DialoGPT</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-transparent dark:border-1 dark:border-blue-200 dark:text-blue-200 rounded-full text-sm font-medium">Rural Healthcare</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-transparent dark:border-1 dark:border-blue-200 dark:text-blue-200 rounded-full text-sm font-medium">Offline Conversational AI</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 dark:bg-transparent dark:border-1 dark:border-blue-200 dark:text-blue-200 rounded-full text-sm font-medium">Common Diseases</span>
+              </div>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="https://drive.google.com/file/d/1BNt--CD9bwt-lKslwuTlnddezvoTyhUg/view?usp=sharing" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg">
+                <svg class="w-5 h-5 mr-2 mb-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
+                </svg>
+                <span>View Paper PDF</span>
+              </a>
+              
+              <a href="https://github.com/Birat-Poudel/Fine-tuning-DialoGPT-medical-conversations" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="flex items-center justify-center px-6 py-3 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg">
+                <svg class="w-5 h-5 mr-2 mb-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
       </div>
     </section>
   </main>
