@@ -149,6 +149,8 @@ I am seeking opportunities to pursue graduate/doctoral studies where I can contr
 ---
 
 **Contact & Collaboration:**
-🔗 [GitHub](https://github.com/Birat-Poudel) · [LinkedIn](https://bit.ly/LinkedIn-Birat-Poudel) · [Email](mailto:poudel.birat25@gmail.com)
+🔗 <a href="https://github.com/Birat-Poudel" target="_blank">GitHub</a> · 
+<a href="https://www.linkedin.com/in/birat-poudel-6562ba16b/" target="_blank">LinkedIn</a> · 
+<a href="mailto:poudel.birat25@gmail.com" target="_blank">Email</a> 
 
 *Open to research collaborations, academic discussions, graduate/doctoral program opportunities.*
