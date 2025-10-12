@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://www.biratpoudel.com.np/",
   author: "Birat Poudel",
   profile: "https://www.biratpoudel.com.np/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Research portfolio of Birat Poudel",
   title: "Birat Poudel",
   ogImage: "",
   lightAndDarkMode: true,
