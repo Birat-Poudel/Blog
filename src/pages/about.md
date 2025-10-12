@@ -98,7 +98,7 @@ My research and professional contributions focus on the following areas:
 **[Fine-Tuning DialoGPT on Common Diseases in Rural Nepal for Medical Conversations](https://github.com/Birat-Poudel/Fine-tuning-DialoGPT-medical-conversations)**
 
 *Natural Language Processing & Human-Computer Interaction*
-- Fine-tuned Microsoft DialoGPT-medium on a synthetically generated dataset of 1,009 doctor–patient dialogues covering ten common  diseases prevalent in rural Nepal to create an offline-capable medical conversational AI system
+- Fine-tuned Microsoft DialoGPT-medium on a synthetically generated dataset of 1,000 doctor–patient dialogues covering ten common  diseases prevalent in rural Nepal to create an offline-capable medical conversational AI system
 - Designed a two-stage data generation and validation pipeline using Gemini 2.5 Pro and Claude 4 Sonnet, followed by expert medical review, ensuring accuracy, empathy, and contextual relevance of dialogues
 - Conducted quantitative (perplexity, loss, token-level F1) and qualitative evaluations by healthcare professionals, demonstrating the model’s ability to produce coherent, medically appropriate, and empathetic responses for low-resource healthcare settings
 
