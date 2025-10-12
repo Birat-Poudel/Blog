@@ -82,7 +82,7 @@ My research and professional contributions focus on the following areas:
 **[Nepali Sign Language Characters Recognition](https://github.com/Birat-Poudel/Nepali-Sign-Language-Characters-Classification)**
 
 *Deep Learning & Accessibility Technology*
-- Developed the first benchmark dataset for Nepali Sign Language (NSL) with 36 gesture classes and 1,500 samples per class
+- Developed the benchmark dataset for Nepali Sign Language (NSL) with 36 gesture classes and 1,500 samples per class
 - Fine-tuned MobileNetV2 and ResNet50 architectures achieving classification accuracies of 90.45% and 88.78% respectively
 - Demonstrated effectiveness of transfer learning and fine-tuning for underexplored sign languages in low-resource settings
 - Contributed to accessibility research by creating systematic dataset and deep learning approaches for NSL recognition
