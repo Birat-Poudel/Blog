@@ -59,17 +59,17 @@ My research and professional contributions focus on the following areas:
 - Designed a Foundational Models Evaluation Pipeline that generates automated PDF reports for large-scale model benchmarking
 - Engineered and deployed AI Agents and MCP Servers to enable scalable, modular, and autonomous agent orchestration across workflows
 
-**Machine Learning Engineer** | Jobsflow.ai (Dec 2023 - May 2024)
+**Machine Learning Research Engineer** | Jobsflow.ai (Dec 2023 - May 2024)
 - Built AI systems, including an AI Voice Interviewer and an intelligent Chatbot capable of making tool calls to over ten plus services like Google Calendar, Meet, Gmail, Zoom, etc
 - Developed algorithms for calculating match score of a particular applicant for a job based on job descriptions and applicant’s resume and answers for the job related questions
 - Implemented contextual searching, filtering and sorting using embeddings to enhance candidate selection accuracy
 
-**ML Research Engineer** | Fusemachines (Sep 2023 - Nov 2023)
+**Machine Learning Research Engineer** | Fusemachines (Sep 2023 - Nov 2023)
 - Preprocessed and transformed datasets using NumPy and Pandas, applying advanced feature engineering techniques for time series forecasting and machine learning applications
 - Designed and implemented ML models, including SARIMA, LSTM, Prophet, and XGBoost, for time series forecasting and predictive analytics, achieving a 15% improvement over previous models
 - Enhanced RAG-based systems by optimizing vector storage and retrieval
 
-**Machine Learning Engineer** | Maven Solutions (Aug 2022 - Aug 2024)
+**Machine Learning Research Engineer** | Maven Solutions (Aug 2022 - Aug 2024)
 - Worked on data preprocessing and feature engineering using libraries like Numpy and Pandas to prepare datasets for model training
 - Developed and implemented machine learning algorithms using libraries such as Scikit-Learn for tasks like classification, regression, and clustering achieving an accuracy improvement of 15% over previous models
 - Employed advanced automation scripts and conducted precise web scraping operations to streamline workflows and gather mission-critical data efficiently
@@ -108,6 +108,13 @@ My research and professional contributions focus on the following areas:
 - Implemented an end-to-end evaluation pipeline for Amazon Bedrock models (multi-region support) with performance (latency, throughput, time-to-first-token) and quality metrics (helpfulness, faithfulness, completeness, coherence, etc.)
 - Used LangChain orchestration and an LLM-as-a-judge approach for automated, multi-dimensional quality and responsible-AI assessments (harmfulness, bias, refusal appropriateness), plus async processing for concurrent benchmarking
 - Produced structured evaluation outputs and human-readable reports to compare models, tune prompts, and inform safe deployment decisions
+
+**[Deep Research Agent using Amazon Strands Agents](https://github.com/Birat-Poudel/Deep-Research-Agent)**
+
+*Multi-Agents Orchestration*
+- Engineered an automated research agent pipeline that uses Amazon Strands Agents for domain-specific data gathering, filtering, and summarization, reducing manual research time by a significant margin.
+- Implemented a multi-agent architecture combining “Agent Loop,” “Agent-as-Tool,” “Web Search,” and “Extraction” modules to autonomously perform requirements analysis, competitive landscape research, and effort estimation.
+- Incorporated iterative feedback loops and inter-agent coordination to refine project scoping, synthesize comparative analyses, and output actionable estimations and insights.
 
 **[Vector Search & RAG Systems](https://github.com/Birat-Poudel/Vector-Search-RAG-Projects)**
 
